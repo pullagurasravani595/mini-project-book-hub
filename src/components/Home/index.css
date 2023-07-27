@@ -1,21 +1,24 @@
+.home-container {
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .home-banner-container {
   background: #f5f7fa;
   width: 100%;
   min-height: 100vh;
-  top: 9322px;
-  left: 6356px;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
 }
 
 .home-heading {
   font-family: Inter;
   font-size: 24px;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 64px;
   letter-spacing: 0px;
   text-align: left;
   color: #1e293b;
@@ -23,25 +26,41 @@
 
 .home-description {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
   color: #475569;
-  margin-right: 24px;
 }
 
 .books-container {
   background: #ffffff;
   width: 95%;
-  height: 300px;
+  height: 50%;
   top: 309px;
   left: 100px;
   border-radius: 16px;
   align-self: flex-start;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 0px 1px 0px #28293d14;
+  margin-bottom: 80px;
+}
+
+.button-btn {
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background: #0284c7;
+  border-width: 0px;
+  width: 50px;
+  height: 25px;
+  border-radius: 4px;
 }
 
 .card-heading {
@@ -86,4 +105,98 @@
   justify-content: center;
   align-items: center;
   padding-top: 180px;
+}
+
+.home-failure-img {
+  width: 300px;
+  height: 120px;
+  top: 419px;
+  left: 547px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-item {
+  width: 350px;
+  height: 340px;
+  top: 409px;
+  left: 171px;
+  border-radius: 4px;
+}
+
+.container-card-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+  padding-left: 150px;
+}
+
+.slide-img {
+  width: 350px;
+  height: 224px;
+  top: 409px;
+  left: 171px;
+  border-radius: 4px;
+}
+
+.slide-heading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin-right: 8px;
+  color: #334155;
+}
+
+.author-name {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #64748b;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  color: #3d3c3c;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-contact {
+  color: #3d3c3c;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.home-nav-link {
+  text-decoration: none;
 }

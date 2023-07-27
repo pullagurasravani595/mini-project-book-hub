@@ -1,0 +1,48 @@
+.not-found-img {
+  width: 280px;
+  height: 260px;
+  margin-top: 24px;
+  left: 496px;
+}
+
+.not-found-heading {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #334155;
+}
+
+.not-found-description {
+  color: #475569;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.not-found-btn {
+  background: #0284c7;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 116px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 6px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

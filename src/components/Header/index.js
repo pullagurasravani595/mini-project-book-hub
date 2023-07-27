@@ -10,7 +10,7 @@ const Header = props => {
   }
 
   return (
-    <nav className="nav-container">
+    <ul className="nav-container">
       <Link to="/" className="nav-link">
         <img
           src="https://res.cloudinary.com/dj6c4lrt9/image/upload/v1688915137/Group_7731_1_gtddoh.png"
@@ -29,7 +29,7 @@ const Header = props => {
           Logout
         </button>
       </div>
-    </nav>
+    </ul>
   )
 }
 
